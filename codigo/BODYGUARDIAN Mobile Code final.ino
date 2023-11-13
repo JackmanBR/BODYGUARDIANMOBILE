@@ -1,6 +1,9 @@
 #define BLYNK_TEMPLATE_ID ""   // sete a contanste do seu templateId
 #define BLYNK_TEMPLATE_NAME "" // sete constante do seu template name
 #define BLYNK_AUTH_TOKEN ""    // sete a constante do seu blynk token
+#include <time.h>
+#include <Adafruit_GFX.h>
+#include <Adafruit_SSD1306.h>
 #include <Wire.h>
 #include <Blynk.h>
 #include <WiFi.h>
